@@ -1,0 +1,25 @@
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             version="3.0"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+    <persistence-unit name="jpa-hibernate-mysql">
+       
+       <!-- Define la clase para Hibernate que implementa JPA -->
+       <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+       
+       <!-- Define las clases que serán mapeadas al configurarse la conexión a la base de datos -->
+       <class>com.project.project_jpa.entity.Disquera</class>
+       
+       <properties>
+      <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+      <property name="jakarta.persistence.jdbc.url"    value="jdbc:mysql://localhost:3306/tienda_musical" />
+      <property name="jakarta.persistence.jdbc.user"   value="root" />
+      <property name="jakarta.persistence.jdbc.password" value="Belena09*" />
+      <property name="jakarta.persistence.schema-generation.database.action" value="create" />
+      <property name="hibernate.dialect"    value="org.hibernate.dialect.MySQLDialect" />
+      <property name="hibernate.show_sql"   value="true" />
+      <property name="hibernate.format_sql" value="true" />
+    </properties>
+
+    </persistence-unit>
+</persistence>
