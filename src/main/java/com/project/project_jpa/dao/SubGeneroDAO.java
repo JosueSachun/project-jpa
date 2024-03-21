@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.project.project_jpa.dao.impl;
+package com.project.project_jpa.dao;
 
 import java.util.List;
 

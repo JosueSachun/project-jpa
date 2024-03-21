@@ -11,7 +11,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import com.project.project_jpa.dao.impl.SubGeneroDAO;
+import com.project.project_jpa.dao.SubGeneroDAO;
 import com.project.project_jpa.dao.impl.SubGeneroDAOImpl;
 import com.project.project_jpa.entity.Genero;
 import com.project.project_jpa.entity.SubGenero;

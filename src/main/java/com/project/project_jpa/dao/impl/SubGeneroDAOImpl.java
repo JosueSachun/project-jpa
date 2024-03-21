@@ -5,6 +5,7 @@ package com.project.project_jpa.dao.impl;
 
 import java.util.List;
 
+import com.project.project_jpa.dao.SubGeneroDAO;
 import com.project.project_jpa.entity.SubGenero;
 
 import jakarta.persistence.EntityManager;
