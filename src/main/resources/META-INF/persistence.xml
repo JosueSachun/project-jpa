@@ -9,6 +9,8 @@
        
        <!-- Define las clases que serán mapeadas al configurarse la conexión a la base de datos -->
        <class>com.project.project_jpa.entity.Disquera</class>
+       <class>com.project.project_jpa.entity.Genero</class>
+       <class>com.project.project_jpa.entity.SubGenero</class>
        
        <properties>
       <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
